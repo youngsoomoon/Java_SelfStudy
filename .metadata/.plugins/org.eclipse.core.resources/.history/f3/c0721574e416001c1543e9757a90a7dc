@@ -1,0 +1,5 @@
+
+public class test {
+	char test = 'A';
+	System.out.println(test);
+}
