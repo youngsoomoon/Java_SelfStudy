@@ -1,2 +1,16 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<qualifiedTypeNameHistroy/>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="verify.ShopService"/>
+    <fullyQualifiedTypeName name="sec06.exam02.hyundai.Engine"/>
+    <fullyQualifiedTypeName name="sec05.Car"/>
+    <fullyQualifiedTypeName name="sec06.exam02.kumho.BigWidthTire"/>
+    <fullyQualifiedTypeName name="sec06.exam02.hankook.Tire"/>
+    <fullyQualifiedTypeName name="sec06.exam02.kumho.Tire"/>
+    <fullyQualifiedTypeName name="java.lang.Override"/>
+    <fullyQualifiedTypeName name="sec03.verify.HttpServlet"/>
+    <fullyQualifiedTypeName name="sec01.exam04.RemoteControl"/>
+    <fullyQualifiedTypeName name="sec01.exam05.SmartTelevision"/>
+    <fullyQualifiedTypeName name="sec01.exam05.Searchable"/>
+    <fullyQualifiedTypeName name="sec01.exam05.RemoteControl"/>
+</qualifiedTypeNameHistroy>
