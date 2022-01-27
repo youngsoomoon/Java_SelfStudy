@@ -16,6 +16,7 @@ public class Remainer_3052 {
 		for (int i = 0; i < 10; i++) {
 			cnt.add(input[i]%42);
 		}
+		
 		System.out.println(cnt.size());
 	}
 
