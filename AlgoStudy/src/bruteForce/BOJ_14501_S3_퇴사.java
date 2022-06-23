@@ -13,21 +13,23 @@ public class BOJ_14501_S3_퇴사 {
 		
 		
 		int N = Integer.parseInt(br.readLine());
-		int[][] meeting = new int [N][2];
-		for (int i = 0; i < N; i++) {
+		int[][] meeting = new int[N][2];
+		int[] result = new int[N+1];
+		for (int i = 0; i < meeting.length; i++) {
 			st = new StringTokenizer(br.readLine());
 			meeting[i][0] = Integer.parseInt(st.nextToken());
 			meeting[i][1] = Integer.parseInt(st.nextToken());
 		}
 		
 		for (int i = 0; i < N; i++) {
-			int day = meeting[i][0];
-			int pay = meeting[i][1];
-			for (int j = i+1; j < N; j++) {
-				if(j<day) continue;
-				
+			int T = meeting[i][0];
+			int P = meeting[i][1];
+			if(i+T<=N) {
+				result[i+T] = Math.max(result[i+T], result[i]+P);
 			}
+			result[i+1]=Math.max(result[i+1], result[i]);
 		}
+		System.out.println(result[N]);
 	}
 
 }
