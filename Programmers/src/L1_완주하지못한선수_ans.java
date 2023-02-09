@@ -26,7 +26,7 @@ class Solution_Hash {
     public static void main(String[] args){
         String[] part = {"leo", "kiki", "eden"};
         String[] comp = {"eden", "kiki"};
-        Solution_Sort sol = new Solution_Sort();
-        System.out.println(sol.solution(part, comp));
+       // Solution_Sort sol = new Solution_Sort();
+        //System.out.println(sol.solution(part, comp));
     }
 }
