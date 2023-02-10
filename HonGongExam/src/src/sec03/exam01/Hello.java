@@ -1,4 +1,5 @@
-package chap01.src.sec03.exam01;
+package src.sec03.exam01;
+
 
 public class Hello {
 

@@ -1,4 +1,4 @@
-package sec03.exam02;
+package src.sec03.exam02;
 
 public class RunStatementExample {
 
